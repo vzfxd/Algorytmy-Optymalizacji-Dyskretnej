@@ -1,0 +1,25 @@
+data;
+
+set produkty := p1 p2 p3 p4;
+set maszyny := m1 m2 m3;
+
+param maszyny_info :    koszt   dostepnosc  :=
+                    m1  2       60
+                    m2  2       60
+                    m3  3       60    ;
+
+param produkty_info :       koszt   cena    popyt   :=
+                        p1  4       9       400
+                        p2  1       7       100
+                        p3  1       6       150
+                        p4  1       5       500 ;
+
+param produkty_maszyny  :       m1  m2  m3  :=
+                            p1  5   10  6
+                            p2  3   6   4
+                            p3  4   5   3
+                            p4  4   2   1   ;
+
+
+
+end;
